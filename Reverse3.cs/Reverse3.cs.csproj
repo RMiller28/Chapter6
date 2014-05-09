@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{40CF6AA3-48A2-4CCB-9570-B23B8F19BAEF}</ProjectGuid>
+    <ProjectGuid>{EF25BF8D-B68F-4639-8ADD-CFADFE6FC8FC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Monogram.cs</RootNamespace>
-    <AssemblyName>Monogram.cs</AssemblyName>
+    <RootNamespace>Reverse3.cs</RootNamespace>
+    <AssemblyName>Reverse3.cs</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>

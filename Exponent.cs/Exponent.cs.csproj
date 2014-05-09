@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{40CF6AA3-48A2-4CCB-9570-B23B8F19BAEF}</ProjectGuid>
+    <ProjectGuid>{26C2F53C-5188-4AE4-9912-740BE2010860}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Monogram.cs</RootNamespace>
-    <AssemblyName>Monogram.cs</AssemblyName>
+    <RootNamespace>Exponent.cs</RootNamespace>
+    <AssemblyName>Exponent.cs</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
