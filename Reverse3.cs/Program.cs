@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Reverse3
+namespace Reverse3.cs
 {
-    class Program
+    class Reverse3
     {
-        public static int Revthat(ref int a, ref int b, ref int c)
+        public static void Reverse(int a, int b, int c)
         {
-
-
+            Console.WriteLine("Reversed: {0}, {1}, {2}", a, b, c);
         }
-
         static void Main(string[] args)
         {
-            int[] fi = 2, si = 1, ti = 1;
-            Revthat(ref fi, ref si, ref ti);
+            int firstInt = 10, middleInt = 20, lastInt = 30;
+            Console.WriteLine("In Order: {0}, {1}, {2}", firstInt, middleInt, lastInt);
+            Reverse(lastInt, middleInt, firstInt);
+
         }
     }
 }
