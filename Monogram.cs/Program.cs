@@ -7,17 +7,6 @@ namespace Monogram
 {
     class Program
     {
-        public static void ConsoleWriteLineDupe(string let, params object[] parameters)
-        {
-            for (int i = 0; i < parameters.Length; i++)
-            {
-                let = let.Replace("{" + i + "}", parameters[i].ToString());
-            }
-
-            Console.WriteLine(let);
-        }
-
-
         public static void Monogram(char a, char b, char c, char d, char e, char f)
         {
 
@@ -28,7 +17,7 @@ namespace Monogram
 
         static void Main(string[] args)
         {
-            char f1 = 'J', m1 = 'D', l1 = 'B', f2 = 'M', m2 = 'Q', l2 = 'T';
+            char f1 = 'R', m1 = 'R', l1 = 'M', f2 = 'S', m2 = 'S', l2 = 'M';
 
 
             Monogram(f1, m1, l1, f2, m2, l2);

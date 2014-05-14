@@ -13,9 +13,7 @@ namespace InchesToFeet
             Console.WriteLine("{0} Feet and {1} Inches", a / 12, a % 12);
         }
 
-
-
-
+        
         static void Main(string[] args)
         {
             int inches = 67;
