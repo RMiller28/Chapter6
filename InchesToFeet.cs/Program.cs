@@ -8,9 +8,10 @@ namespace InchesToFeet
     class Program
     {
 
-        public static void InchesToFeet(int a)
+        public static void InchesToFeet(ref int inches4)
         {
-            Console.WriteLine("{0} Feet and {1} Inches", a / 12, a % 12);
+            //Console.WriteLine("{0} Feet and {1} Inches", inches / 12, inches % 12);
+            inches4 = 70;
         }
 
         
@@ -18,7 +19,7 @@ namespace InchesToFeet
         {
             int inches = 67;
 
-            InchesToFeet(inches);
+            InchesToFeet(ref inches);
 
 
 

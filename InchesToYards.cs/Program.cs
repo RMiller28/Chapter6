@@ -8,27 +8,27 @@ namespace InchesToYards
     class Program
     {
 
-        public static int InchesToFeet(int a)
+        public static int InchesToFeet(int inches)
         {
-            return (a % 36) / 12;
+            return (inches % 36) / 12;
         }
-        public static int InchesToInches(int a)
+        public static int InchesToInches(int inches)
         {
-            return a % 12;
+            return inches % 12;
         }
-        public static int InchesToYards(int a)
+        public static int InchesToYards(int inches)
         {
-            return a / 36;
+            return inches / 36;
         }
         static void Main(string[] args)
         {
             int inches = 67;
 
-            InchesToFeet(inches);
-            InchesToYards(inches);
-            InchesToInches(inches);
+            //InchesToFeet(inches);
+            //InchesToYards(inches);
+            //InchesToInches(inches);
 
-             int result = InchesToYards(inches);
+            int result = InchesToYards(inches);
             int result2 = InchesToFeet(inches);
             int result3 = InchesToInches(inches);
 
