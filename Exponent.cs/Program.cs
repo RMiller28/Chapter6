@@ -20,7 +20,7 @@ namespace Exponent
         static void Main(string[] args)
         {
 
-            Console.Write("Enter an Integer:");
+            Console.Write("Enter the Integer:");
             String input = Console.ReadLine();
 
             int n = Convert.ToInt32(input);
